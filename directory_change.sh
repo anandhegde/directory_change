@@ -18,7 +18,7 @@ do
 
 	if [ "$OLD_STAT" != "$NEW_STAT" ]
 	then
-	        echo 'Directory has changed. Do something!'
+	        echo 'Directory has changed. Do something! sholud'
 	        # do whatever you want to do with the directory.
 	        # update the OLD_STAT_FILE
 	        echo $NEW_STAT > $OLD_STAT_FILE
