@@ -18,6 +18,7 @@ do
 
 	if [ "$OLD_STAT" != "$NEW_STAT" ]
 	then
+		/bin/bash /home/anihegde/learn/shell/git_push.sh
 	        echo 'Directory has changed. Do something! sholud'
 	        # do whatever you want to do with the directory.
 	        # update the OLD_STAT_FILE
